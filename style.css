@@ -1,0 +1,24 @@
+body{
+  margin:0;
+  font-family: 'VT323', monospace;
+
+}
+#main{
+  width: 100vw;
+  height:100vh;
+  background-color: black
+}
+
+#terminalWindow{
+  height: 100%;
+  width:375px;
+  word-wrap: break-word;
+}
+
+.string{
+  color: green;
+  width: 100%;
+  /* height: 3%; */
+  font-size: 25px;
+  white-space: pre-line;
+}
